@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov 20 13:56:42 2020
+
+@author: shari
+"""
+
+#Packages
+
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from scipy import integrate
+import scipy.optimize
+mpl.rc('font', family='serif')
+
+#Data from question
+
+B = 5
+sig = 1
+
+#Models
+
+def M0(t):
+    return B
+
+def M1(t):
+    return B + L_0
+
+def M2(t):
+    return B + A_0*np.exp(-t/tau)
+
+
+n_j = 
+d_t = s_t + n_j
